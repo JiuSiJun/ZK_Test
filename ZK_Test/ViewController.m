@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"第一次上传gitHub,测试1");
     NSLog(@"第一次上传gitHub,测试2");
+    NSLog(@"第一次上传gitHub,测试3");
 }
 
 
