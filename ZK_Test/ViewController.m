@@ -22,6 +22,7 @@
     NSLog(@"第一次上传gitHub,测试3");
     NSLog(@"第一次上传gitHub,测试4");
     NSLog(@"第一次上传gitHub,测试5");
+    NSLog(@"提交分支branch_test1,测试6");
 }
 
 
