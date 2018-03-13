@@ -15,6 +15,7 @@
 		2E18023B204FCAB900CE9117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E18023A204FCAB900CE9117 /* main.m */; };
 		2E180245204FCAB900CE9117 /* ZK_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E180244204FCAB900CE9117 /* ZK_TestTests.m */; };
 		2E180250204FCAB900CE9117 /* ZK_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E18024F204FCAB900CE9117 /* ZK_TestUITests.m */; };
+		2E28EFDA2057AA640071A4C3 /* CustomAPPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28EFD92057AA640071A4C3 /* CustomAPPDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2E18024B204FCAB900CE9117 /* ZK_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZK_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E18024F204FCAB900CE9117 /* ZK_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZK_TestUITests.m; sourceTree = "<group>"; };
 		2E180251204FCAB900CE9117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E28EFD82057AA640071A4C3 /* CustomAPPDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAPPDelegate.h; sourceTree = "<group>"; };
+		2E28EFD92057AA640071A4C3 /* CustomAPPDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAPPDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				2E18022B204FCAB900CE9117 /* AppDelegate.h */,
 				2E18022C204FCAB900CE9117 /* AppDelegate.m */,
+				2E28EFD82057AA640071A4C3 /* CustomAPPDelegate.h */,
+				2E28EFD92057AA640071A4C3 /* CustomAPPDelegate.m */,
 				2E18022E204FCAB900CE9117 /* ViewController.h */,
 				2E18022F204FCAB900CE9117 /* ViewController.m */,
 				2E180231204FCAB900CE9117 /* Main.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E180230204FCAB900CE9117 /* ViewController.m in Sources */,
+				2E28EFDA2057AA640071A4C3 /* CustomAPPDelegate.m in Sources */,
 				2E18023B204FCAB900CE9117 /* main.m in Sources */,
 				2E18022D204FCAB900CE9117 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ACXGUGNBP;
 				INFOPLIST_FILE = ZK_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kedai.ZK-Test";
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ACXGUGNBP;
 				INFOPLIST_FILE = ZK_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kedai.ZK-Test";

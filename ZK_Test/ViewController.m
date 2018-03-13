@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+struct date {
+    int month;
+    int day;
+    int year;
+};
 
 @end
 
@@ -47,8 +52,27 @@
     NSLog(@"--- %d --- %d",a[9],a[0]);
     
     NSLog(@"打印测试提交:3.13,00:49:30");
+    
+    NSString *strArray[3] = {@"",@"",@""};
+    
+    hehe();
+    
+
+    void (^ccc) (int j,int i) = ^(int a,int b){
+        NSLog(@"=============");
+    };
+    ccc(1,2);
+    
+    
+    
 }
 
+
+
+void hehe (void)
+{
+    NSLog(@"可以?");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
